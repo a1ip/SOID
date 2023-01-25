@@ -1,0 +1,24 @@
+\documentclass[a4paper,12pt,russian]{article}
+\usepackage[T2A]{fontenc}
+\usepackage{xunicode} % some extra unicode support
+\usepackage{xltxtra} % \XeLaTeX macro
+\tolerance=1000
+\emergencystretch=0.74cm
+\usepackage{indentfirst} %делать отступ в начале параграфа
+\usepackage[pdfborder = {0 0 0}]{hyperref} %гиперссылки в документе.
+\usepackage[russian]{babel}
+\usepackage{hhline} % Для двойных линий в шапках таблиц
+\usepackage{amsmath, amsfonts} % для расширенных настроек ссылок на формулы
+\usepackage{extsizes}	% использование шрифтов большего кегля 
+\usepackage{fancyvrb} % Добавляет продвинутые Verbatim и Verb
+\usepackage{epsfig} % удобно вставлять рисунки в строку текста
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage[MakeStamp, SubSectInToc]{eskdi}
+\setpage % Разметка текста на странице
+\begin{document}
+\input gost.tex
+\input p1.tex
+\clearpage
+\makesecondpage
+test
+\end{document}
