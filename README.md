@@ -42,6 +42,6 @@ endloop4 --> solve6[["h = minIndex(Avg)"]]
 solve6 --> output[/"#160;#160;#160;#160;#160;M, h#160;#160;#160;#160;#160;"/]
 output -->  End(["#160;Конец#160;"])
 
-classDef default fill:#fff,stroke:#000,stroke-width:2px;
-linkStyle default stroke:#000,stroke-width:2px,color:black;
+%%classDef default fill:#fff,stroke:#000,stroke-width:2px;
+%%linkStyle default stroke:#000,stroke-width:2px,color:black;
 ```
